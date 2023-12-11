@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form 3</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Flights - Search List</h1>
+			<nav>
+				<p>
+					<a href="#">Home</a> /
+					<a href="#">Flights Search List</a>
+				</p>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="first-line">
+				<p>
+					<input checked id="oneway" type="radio">
+					<label for="oneway">One Way</label>
+					<input id="roundtrip" type="radio">
+					<label for="roundtrip">Round Trip</label>
+				</p>
+				<form action="">
+					<input placeholder="Form" type="text">
+					<input placeholder="To" type="text">
+					<input placeholder="Depart Date" type="text">
+					<input placeholder="Return Date" type="text">
+					<select name="flightclass" id="flightclass">
+						<option selected value="1">Economy Class</option>
+						<option value="2"></option>
+						<option value="3"></option>
+					</select>
+					<button type="submit">Search</button>
+				</form>
+			</div>
+			<div class="sections">
+				<section class="filter">
+					<form action="">
+						<h3>Filter</h3>
+						<h4>No. of Stops</h4>
+						<input id="nonstop" type="checkbox">
+						<label for="nonstop">Non Stop</label><br>
+						<input id="onestop" type="checkbox">
+						<label for="onestop">1 Stop</label><br>
+						<input id="twoplusstops" type="checkbox">
+						<label for="twoplusstops">2+ Stops</label>
+						<h4>Price</h4>
+						<p class="price">
+							<label for="min">Min:</label><br>
+							<input placeholder="0" id="min" type="number">
+							$ -
+						</p>
+						<p class="price">
+							<label for="max">Max:</label><br>
+							<input placeholder="1000" id="max" type="number"> $
+						</p>
+						<h4>Airlines</h4>
+						<input id="asianaairlines" type="checkbox">
+						<label for="asianaairlines">Asiana Airlines</label><br>
+						<input id="americanairlines" type="checkbox">
+						<label for="americanairlines">American Airlines</label><br>
+						<input id="aircanada" type="checkbox">
+						<label for="aircanada">Air Canada</label><br>
+						<input id="airindia" type="checkbox">
+						<label for="airindia">Air India</label><br>
+						<input id="jetairways" type="checkbox">
+						<label for="jetairways">Jet Airways</label><br>
+						<input id="spicejet" type="checkbox">
+						<label for="spicejet">Spicejet</label><br>
+						<input id="indigo" type="checkbox">
+						<label for="indigo">IndiGo</label><br>
+						<input id="multipleairlines" type="checkbox">
+						<label for="multipleairlines">Multiple Airlines</label>
+					</form>
+				</section>
+				<section class="flights">
+					<table>
+						<caption>Dehli to Sydney</caption>
+						<thead>
+							<tr>
+								<th>Airlines</th>
+								<th>Departure</th>
+								<th>Duration</th>
+								<th>Arrival</th>
+								<th>Price</th>
+								<th> </th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									IndiGo <br>
+									<span>6E-2489</span>
+								</td>
+								<td>
+									23:30<br>
+									<span>Dehli</span>
+								</td>
+								<td>
+									18h55m<br>
+									<span>Non Stop</span>
+								</td>
+								<td>
+									18:15<br>
+									<span>Sydney</span>
+								</td>
+								<td>$980</td>
+								<td>
+									<a href="#">Book</a><br>
+									<a href="#">Flight Details</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									IndiGo <br>
+									<span>6E-2489</span>
+								</td>
+								<td>
+									23:30<br>
+									<span>Dehli</span>
+								</td>
+								<td>
+									18h55m<br>
+									<span>Non Stop</span>
+								</td>
+								<td>
+									18:15<br>
+									<span>Sydney</span>
+								</td>
+								<td>$980</td>
+								<td>
+									<a href="#">Book</a><br>
+									<a href="#">Flight Details</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									IndiGo <br>
+									<span>6E-2489</span>
+								</td>
+								<td>
+									23:30<br>
+									<span>Dehli</span>
+								</td>
+								<td>
+									18h55m<br>
+									<span>Non Stop</span>
+								</td>
+								<td>
+									18:15<br>
+									<span>Sydney</span>
+								</td>
+								<td>$980</td>
+								<td>
+									<a href="#">Book</a><br>
+									<a href="#">Flight Details</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									IndiGo <br>
+									<span>6E-2489</span>
+								</td>
+								<td>
+									23:30<br>
+									<span>Dehli</span>
+								</td>
+								<td>
+									18h55m<br>
+									<span>Non Stop</span>
+								</td>
+								<td>
+									18:15<br>
+									<span>Sydney</span>
+								</td>
+								<td>$980</td>
+								<td>
+									<a href="#">Book</a><br>
+									<a href="#">Flight Details</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									IndiGo <br>
+									<span>6E-2489</span>
+								</td>
+								<td>
+									23:30<br>
+									<span>Dehli</span>
+								</td>
+								<td>
+									18h55m<br>
+									<span>Non Stop</span>
+								</td>
+								<td>
+									18:15<br>
+									<span>Sydney</span>
+								</td>
+								<td>$980</td>
+								<td>
+									<a href="#">Book</a><br>
+									<a href="#">Flight Details</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									IndiGo <br>
+									<span>6E-2489</span>
+								</td>
+								<td>
+									23:30<br>
+									<span>Dehli</span>
+								</td>
+								<td>
+									18h55m<br>
+									<span>Non Stop</span>
+								</td>
+								<td>
+									18:15<br>
+									<span>Sydney</span>
+								</td>
+								<td>$980</td>
+								<td>
+									<a href="#">Book</a><br>
+									<a href="#">Flight Details</a>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

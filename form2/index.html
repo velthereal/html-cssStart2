@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form 2</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+		<div class="container">
+			<h1>Contact form</h1>
+			<p>Please fill your information and we'll be sending your order.</p>
+			<form action="">
+				<div class="form">
+					<div class="first">
+						<label for="name">Your name</label>
+						<input placeholder="first name" id="name" type="text">
+						<input placeholder="last name" type="text">
+					</div>
+					<div>
+						<label for="email">Your email</label>
+						<input placeholder="your_mail@mail.com" id="email" type="email">
+					</div>
+					<div>
+						<label for="phone">Phone*</label>
+						<input placeholder="000" id="phone" type="tel">
+						<input placeholder="000" type="tel">
+						<input placeholder="0000" type="tel">
+					</div>
+					<div>
+						<label for="subject">Message subject*</label>
+						<select name="subject" id="subject">
+							<option selected value="1">Otrher</option>
+							<option value="2"></option>
+							<option value="3"></option>
+						</select>
+					</div>
+					<div>
+						<label for="text">Message*</label>
+						<textarea name="message" id="text" cols="30" rows="10"></textarea>
+					</div>
+				</div>
+				<button type="submit">Submit form</button>
+			</form>
+		</div>
+</body>
+</html>

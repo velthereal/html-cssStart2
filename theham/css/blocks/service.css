@@ -1,0 +1,51 @@
+.services {
+	padding-bottom: 100px;
+}
+.services ul {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.services ul li {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	border: solid 1px #ebebeb;
+	background-color: #f8fcfe;
+	height: 70px;
+	padding: 0 40px;
+}
+
+.services ul li.active-web {
+	background-color: #18cfab;
+}
+
+.services ul li.active-web a {
+	color: #fff;
+}
+
+.services ul li:hover {
+	background-color: #18cfab;
+}
+
+.services ul li:hover a {
+	color: #fff;
+}
+
+.services article {
+	display: flex;
+}
+
+.services article img {
+	height: 140px;
+}
+
+.services article p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #777777;
+	font-family: 'font-Light';
+	margin-left: 20px;
+	text-align: justify;
+}

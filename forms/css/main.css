@@ -1,0 +1,32 @@
+input[type = "checkbox"]{
+    background-color: red;
+}
+input:checked{
+    border:solid 3px red;
+}
+.check input{
+    display: none;
+}
+.check label{
+    position: relative;
+}
+.check label::after{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 1px tomato;
+    margin-left: 5px;
+}
+.check input:checked+label::before{
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 5px;
+    border-bottom: solid 2px purple;
+    border-left: solid 2px purple;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: 1px;
+    top: 3px;
+}

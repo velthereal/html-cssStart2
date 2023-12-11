@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Search-icon {
+    width: 22px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+
+.sprite-icon-1 {
+    width: 25px;
+    height: 34px;
+    background-position: -5px -37px;
+}
+
+.sprite-icon-2 {
+    width: 27px;
+    height: 27px;
+    background-position: -5px -81px;
+}
+
+.sprite-icon-3 {
+    width: 28px;
+    height: 28px;
+    background-position: -5px -118px;
+}
+
+.sprite-icon-4 {
+    width: 22px;
+    height: 30px;
+    background-position: -5px -156px;
+}
+
+.sprite-icon-5 {
+    width: 34px;
+    height: 22px;
+    background-position: -5px -196px;
+}
+
+.sprite-icon-6 {
+    width: 24px;
+    height: 24px;
+    background-position: -5px -228px;
+}
+
+.sprite-icon-7 {
+    width: 20px;
+    height: 35px;
+    background-position: -5px -262px;
+}
+
+.sprite-icon-8 {
+    width: 26px;
+    height: 24px;
+    background-position: -5px -307px;
+}
+
+.sprite-icon-9 {
+    width: 27px;
+    height: 22px;
+    background-position: -5px -341px;
+}
+
+.sprite-op-1 {
+    width: 58px;
+    height: 97px;
+    background-position: -5px -373px;
+}
+
+.sprite-op-2 {
+    width: 93px;
+    height: 75px;
+    background-position: -5px -480px;
+}
+
+.sprite-op-3 {
+    width: 60px;
+    height: 96px;
+    background-position: -5px -565px;
+}
+
+.sprite-op-4 {
+    width: 99px;
+    height: 76px;
+    background-position: -5px -671px;
+}

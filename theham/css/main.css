@@ -1,0 +1,10 @@
+@import "fonts.css";
+@import "base.css";
+@import "blocks/header.css";
+@import "blocks/option.css";
+@import "blocks/creating.css";
+@import "blocks/works.css";
+@import "blocks/about.css";
+@import "blocks/service.css";
+@import "blocks/purchase.css";
+@import "blocks/footer.css";

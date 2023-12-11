@@ -1,0 +1,45 @@
+.purchase {
+	background: url(../../images/bg-about.jpg) no-repeat center;
+	background-size: cover;
+	padding-top: 125px;
+	padding-bottom: 125px;
+	height: 475px;
+	box-sizing: border-box;
+}
+
+.purchase .container {
+	text-align: center;
+}
+
+.purchase h2 {
+	font-size: 40px;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #18cfab;
+	font-family: 'font-ExtraBold';
+	text-align: center;
+}
+
+.purchase p {
+	margin-top: 30px;
+	font-size: 16px;
+	line-height: 40px;
+	color: #d8d8d8;
+	font-family: 'font-Regular';
+	text-align: center;
+}
+
+.purchase a {
+	width: 166px;
+	height: 61px;
+	background-color: #18cfab;
+	display: inline-block;
+	color: #fff;
+	line-height: 61px;
+	font-size: 13px;
+	font-family: 'font-ExtraBold';
+	border-radius: 5px;
+	border-top: solid 6px #fff;
+	text-align: center;
+	margin-top: 75px;
+}

@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+	padding: 15px;
+	margin: 0 auto;
+	width: 1170px;
+}
+header {
+	background-color: #0f4371;
+	color: #fff;
+}
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h1 {
+	margin: 0;
+	font-size: 24px;
+	font-weight: normal;
+}
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+main {
+	background-color: #f5f5f5;
+}
+.first-line {
+	display: flex;
+	flex-direction: column;
+}
+.first-line form {
+	display: flex;
+	justify-content: space-between;
+}
+.first-line form input,
+.first-line form select,
+.first-line form button {
+	width: 180px;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.first-line form button {
+	background-color: #0f4371;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+}
+.first-line form input,
+.first-line form select {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+.first-line form input:first-of-type,
+.first-line form input:nth-of-type(2) {
+	background: url(../images/location.png) #fff no-repeat;
+	background-position-x: 140px;
+	background-position-y: 3px;
+} 
+.first-line form input:nth-of-type(3),
+.first-line form input:nth-of-type(4) {
+	background: url(../images/calendar.png) #fff no-repeat;
+	background-position-x: 140px;
+	background-position-y: 3px;
+} 
+.filter {
+	box-sizing: border-box;
+	padding: 20px 50px;
+	background-color: #fff;
+	width: 300px;
+	box-shadow: 2px 2px 5px #ccc, -2px -2px 5px #ccc;
+}
+main .container .sections {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+h4 {
+	color: #0f4371;
+}
+.price {
+	display: inline-block;
+}
+.price input {
+	margin-top: 5px;
+	width: 50px;
+	height: 30px;
+}
+.flights {
+	width: 840px;
+	background-color: #fff;
+	box-shadow: 2px 2px 5px #ccc, -2px -2px 5px #ccc;
+	box-sizing: border-box;
+}
+caption {
+	font-size: 20px;
+	font-weight: bold;
+	height: 60px;
+	text-align: center;
+	margin-top: 40px;
+}
+table {
+	border-collapse: collapse;
+}
+thead tr {
+	background-color: #f5f5f5;
+}
+th {
+	color: #0f4371;
+}
+th, td {
+	width: 140px;
+	height: 50px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+td  {
+	height: 90px;
+	text-align: center;
+	font-size: 20px;
+}
+table span {
+	font-size: 16px;
+	color: #ccc;
+}
+td a:first-of-type {
+	background-color: #0f4371;
+	border-radius: 3px;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+td a:last-of-type {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 16px;
+	color: #0f4371;
+	text-decoration: none;
+}

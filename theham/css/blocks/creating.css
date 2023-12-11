@@ -1,0 +1,92 @@
+.creating {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-column-gap: 70px;
+	grid-row-gap: 100px;
+	padding-bottom: 130px;
+}
+
+.creating h4 {
+	/* padding-left: 40px; */
+	padding-bottom: 25px;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	/* line-height: 40px; */
+	color: #717171;
+	font-family: 'font-ExtraBold';;
+	text-align: center;
+}
+
+.creating article:first-of-type h4 {
+	color:  #18cfab;
+	/* cursor: pointer; */
+}
+
+.creating article h4::before {
+	background-image: url(../../images/spritesheet.png);
+	margin-right: 20px;
+	content: "";
+	display: inline-block;
+}
+
+.creating article:nth-child(1) h4::before {
+	width: 25px;
+	height: 34px;
+	background-position: -5px -37px;
+}
+
+.creating article:nth-child(2) h4::before  {
+	width: 27px;
+	height: 27px;
+	background-position: -5px -81px;
+}
+
+.creating article:nth-child(3) h4::before  {
+	width: 28px;
+	height: 28px;
+	background-position: -5px -118px;
+}
+
+.creating article:nth-child(4) h4::before  {
+	width: 22px;
+	height: 30px;
+	background-position: -5px -156px;
+}
+
+.creating article:nth-child(5) h4::before  {
+	width: 34px;
+	height: 22px;
+	background-position: -5px -196px;
+}
+
+.creating article:nth-child(6) h4::before  {
+	width: 24px;
+	height: 24px;
+	background-position: -5px -228px;
+}
+
+.creating article:nth-child(7) h4::before  {
+	width: 20px;
+	height: 35px;
+	background-position: -5px -262px;
+}
+
+.creating article:nth-child(8) h4::before  {
+	width: 26px;
+	height: 24px;
+	background-position: -5px -307px;
+}
+
+.creating article:nth-child(9) h4::before  {
+	width: 27px;
+	height: 22px;
+	background-position: -5px -341px;
+}
+
+.creating p {
+	font-size: 14px;
+	line-height: 26px;
+	color: #777777;
+	font-family: 'font-Light';
+}
